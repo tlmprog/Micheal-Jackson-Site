@@ -1,0 +1,170 @@
+body{
+    background-image: url(../images/bg2.jpg);
+     ;
+}
+
+.container_24{
+   background-image: url(../images/bg.jpg);
+   
+}
+
+a{
+    text-decoration: none;
+}
+
+/*
+==Header H1==
+*/
+
+div.Banner{
+    background-color: rgb(160, 122, 20);
+    height: 59px;
+}
+/*BannerLogo*/
+.Banner  h1{
+  background-image: url(../images/Main\ Logo.png);
+    width: 588px;
+    height: 59px;
+    margin: auto;
+    text-indent: -9999px;
+   
+    
+}
+
+  /*Nav bar*/
+
+  nav{
+    background-color: rgb(136, 125, 90);
+  }
+  
+  header nav ul{
+      
+      line-height: 30px;
+      margin-left:50px ;
+     
+
+  }
+
+  header nav ul li{
+      display: inline;
+      
+      font-size: 20px;
+      font-family: 'OpenSans' sans-serif;
+      position: sticky;
+      margin-left: 40px;
+      margin-right:40px;
+      text-transform: uppercase;
+     
+  }
+
+  ul li a{
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+   
+
+  }
+
+  header nav ul li a:hover{
+    color: rgb(37, 34, 15)
+  }
+  
+ /*Banner*/
+
+ .banner  blockquote{
+     margin: 10px;
+     background-color: rgba(255, 255, 255, 0.157);
+     color: rgb(109, 95, 21);
+     font-size: 21px;
+     width: 210px;
+     height: 220px;
+     padding: 14px 12px 20px 14px;
+     position: absolute;
+     bottom: 7px;
+     left: 15px;
+    
+    
+     
+     
+
+ }
+ .banner {
+     background-image:url(../images/mj-pic.jpg);
+     height: 286px;
+     position: relative;
+     text-justify: auto;
+
+ }
+blockquote::before,blockquote::after{
+    font-size: 40px;
+	color: #bfbfbf;
+	font-style: italic;
+	position: absolute;
+  
+}
+ blockquote::before{
+     content: '"';
+    top: -9px;
+    left: -1px;
+ }
+ blockquote::after{
+    content: '"';
+    bottom: 0px;
+    right: 60px;
+}
+
+blockquote p{
+    font-size: 14px;
+    margin-left:90px ;
+    font-style: italic;
+    color: rgb(207, 207, 204);
+}
+
+/*Main Content*/
+div.MJ_Portrait{
+    background-color: aquamarine;
+    
+}
+/*info*/
+ div.info{
+
+;
+  }
+
+  div.info p{
+      font-family:  Verdana, Tahoma, sans-serif, Tahoma, sans-serif;
+      text-transform: capitalize;
+      text-align: center;
+      margin-bottom: 10px ;
+      margin-top: 10px ;
+      line-height: 30px;
+      font-size: 40px;
+  }
+
+  div.inner li{
+     text-decoration: none;
+     list-style-type:none;    
+     font-size: 20px;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  }
+
+  .se,header{
+      background-color: rgba(167, 143, 40, 0.082);
+  }
+
+  .se .thriller p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+    background-color: rgba(255, 255, 255, 0.157);
+    color: rgb(255, 255, 255);
+    padding: 9px;
+    border: 4px solid rgb(109, 95, 21);
+    margin: 0px;
+    
+    
+  }
+
+  .thriller{
+    height: 290px;
+  }
+

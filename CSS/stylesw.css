@@ -1,0 +1,102 @@
+div.album{
+    background-color: rgba(48, 56, 56, 0.267);
+}
+
+div.album div.grid_6{
+    position: relative;
+}
+/* Song Image*/
+div.album div.grid_6 div.song a img{
+    padding: 15px;
+    
+}
+
+div.album div.grid_6{
+    background-color: rgba(106, 107, 25, 0.315);
+    margin-bottom: 10px;
+}
+
+div.album div.grid_6:hover{
+    background-color: rgba(106, 107, 25, 0.541) ;
+}
+
+/*Play Button*/
+div.album div.grid_6 img.Button{
+  position: absolute;
+  bottom: 118px;
+  right: 22px;
+  
+}
+div.album div.grid_6 img.Button:hover {
+    transform: scale(1.09);
+}
+
+/*info */
+
+div.info{
+    margin-bottom: 10px;
+}
+
+div.info #sname{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+    line-height: 12px;
+}
+
+div.info #album{
+    font-size: 15px;
+    margin: 0px;
+
+}
+
+div.info #year{
+    font-size: 15px;
+    margin: 0px;
+    line-height: 10px;
+    color: rgb(155, 124, 22);
+  
+}
+/*Album Main*/
+div.album div.head p{
+    background-image: url(../images/Thriller\ Album.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    text-indent: -99999px;
+    
+}
+   /*Bad*/
+   div#Bad div.head p{
+    background-image: url(../images/Bad.jpg);
+   }
+   /*Dangerous*/
+   div#dangerous div.head p{
+       background-image: url(../images/Dangerous.jpg);
+   }
+   
+
+div.album div.head h1{
+    font-family: 'Creepster', cursive;
+    font-size: 60px;
+    margin-bottom: 0px;
+    letter-spacing: 15px;
+    line-height: 60px;
+    color: rgb(241, 9, 9);
+    background-color: rgba(0, 0, 0, 0.726);
+
+}
+    /*Bad*/
+    div#Bad div.head h1{
+        font-family: 'Permanent Marker', cursive;
+
+    }
+    /*Dangerous*/
+    div#dangerous div.head h1{
+        font-family:cursive;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+div.album div.head h1 span.yy{
+    float: right;
+}

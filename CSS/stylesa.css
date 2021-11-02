@@ -1,0 +1,56 @@
+div.Main{
+    background-color: aqua;
+    height: 500px;
+}
+/* TEXT*/
+div.Main  div.text{
+    background-color: bisque;
+    height: 500px;
+    
+}
+   /*H1*/
+    
+   div.Main div.text h1{
+       font-size: 40px;
+   }
+
+   /*P*/
+    
+   div.Main div.text p{
+    font-size: 30px;
+    text-transform: capitalize;
+    }
+
+
+
+
+
+
+
+div.Main div.Portrait{
+    background-color: blue;
+    height: 500px;
+}
+/*Form*/
+/*Grid4 */
+ div.Main div.Form div.grid_4 input{
+    padding:0px;
+    border: 2px solid black;
+    width: 120px;
+    margin-left: 10px;
+    height: 20px;
+ }
+
+ div.Main div.Form div.grid_4 label{
+    margin-left: 10px;
+  
+ }
+ /* Grid24*/
+
+ div.Main div.Form div.grid_12 textarea{
+     margin-left: 10px;
+ }
+ div.Main div.Form div.grid_12 label{
+     display: block;
+     margin-left: 10px;
+ }

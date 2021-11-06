@@ -1,10 +1,10 @@
 div.Main{
-    background-color: aqua;
+    background-color: rgba(92, 79, 67, 0.171);
     height: 500px;
 }
 /* TEXT*/
 div.Main  div.text{
-    background-color: bisque;
+    background-color: rgba(168, 128, 53, 0.486);
     height: 500px;
     
 }
@@ -12,6 +12,7 @@ div.Main  div.text{
     
    div.Main div.text h1{
        font-size: 40px;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    }
 
    /*P*/
@@ -19,6 +20,7 @@ div.Main  div.text{
    div.Main div.text p{
     font-size: 30px;
     text-transform: capitalize;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
 
@@ -35,22 +37,107 @@ div.Main div.Portrait{
 /*Grid4 */
  div.Main div.Form div.grid_4 input{
     padding:0px;
-    border: 2px solid black;
-    width: 120px;
-    margin-left: 10px;
+    border: 1px solid black;
+    width: 140px;
     height: 20px;
+    margin-top: 5px;
+    
+    
  }
+  /*Mail*/ 
+        div.Main div.Form div.grid_4.Mail input{
+            margin: 5px 0px 0px;
+            font-size: 11.25px;
+    
+        
+        }
+   /*Number*/
+        div.Main div.Form div.grid_4.Number input{
+            width: 150px;
+    /*Labels*/
+        }
 
- div.Main div.Form div.grid_4 label{
-    margin-left: 10px;
-  
- }
+
+        div.Main div.Form div.grid_4 label{
+            margin: 0px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+        }
+        div.Main div.Form div.grid_12 label{
+            display: block;
+            margin: 5px 0px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+        }
  /* Grid24*/
 
  div.Main div.Form div.grid_12 textarea{
-     margin-left: 10px;
+     margin-left: 0px;
+     width: 456px;
+     height: 150px;
+     border: rgb(0, 0, 0) solid 1px;
  }
- div.Main div.Form div.grid_12 label{
-     display: block;
-     margin-left: 10px;
+
+
+ div.Main div.grid_12.Form{
+    box-sizing: border-box; 
+    padding-right: 5px;
+    margin: auto,0px,auto,0px;
+    color: cornsilk;
  }
+
+
+ div.Main div.Form input.submit{
+   width: 70px;
+   height: 30px;
+   font-size: 16px;
+   background-color: rgba(182, 159, 29, 0.767);
+   color: black;
+   margin-left:393px ;
+   margin-top: 0x;
+   float: none;
+}
+
+div.Main div.Form div.radio p{
+    margin-bottom: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+div.Main div.Form div.radio label {
+float: left;
+margin-right: 10px;
+}
+div.Main div.Form input{
+    float: left;
+    margin:10px 5px 0px 0px;
+}
+
+div.Main div.Form div.robot{
+    background-color: rgb(66, 66, 88);
+    width: 200px;
+    height: 55px;
+    margin-top: 10px;
+    position: relative;
+    
+}
+div.Main div.Form div.robot input{
+    margin-right: 10px;
+    margin-top: 20.9px;
+    margin-left: 5px;
+}
+div.Main div.Form div.robot label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin-top: 15.5px;
+
+}
+div.Main div.Form div.robot p{
+    float: right;
+    height: 45px;
+    width: 47px;
+    position: absolute;
+    left: 150px;
+    top: 5px;
+    text-indent: -5000px;
+    background-image: url(../images/recaptcha.png);
+}

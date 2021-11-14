@@ -1,0 +1,56 @@
+body{
+  margin: 0px;
+}
+
+
+/*Heeder*/
+  /*Top Navbar*/
+  div.topnavbar{
+    background-color: aqua;
+    width:100%; 
+    padding: 10px;
+    position: relative;
+
+   }
+   /*Left Nav*/
+      /*Dropdown*/
+      div.dropdown{
+        display: inline-block;
+        background-color: rgb(43, 226, 104);
+        cursor: pointer;
+
+      } 
+      div.dropdown:hover div.dropdowncontent{
+        display: block;
+      }
+      /*i*/  
+        i{
+          text-align: center;
+          padding: 10px;
+        } 
+      /*Official Site*/  
+        a{
+              display: inline;
+              text-decoration: none;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              color: #000;
+          }
+        /*Drop Down Content*/
+          div.dropdowncontent{
+            display: none;
+            position: absolute;
+            background-color: rgb(23, 23, 26);
+            top: 46px;
+            left: 10px;
+            z-index: 1;
+          }
+          div.dropdowncontent a{
+            display: block;
+            padding: 12px 20px;
+            color: blue;
+            
+
+          }
+          div.dropdowncontent a:hover{
+            background-color: blanchedalmond;
+          }

@@ -134,16 +134,14 @@ div.topblackbar{
      padding: 30px;
    }
       /*Logo Image*/
-      div.banner div.logo p{
-        margin: 0px;
-      }
-
-      div.banner div.logo {
-        background-image:url(https://img.tmstor.es/michaeljackson/head_bg.png);
-        background-repeat: no-repeat;
+      div.banner div.logo a{
         height: 100px;
-        text-indent: -999px;
-        background-position: center;
+        
+      }
+      div.banner div.logo a img{
+       display: block;
+        margin-left: auto;
+        margin-right: auto;
       }
     /*Links*/
     div.banner div.links{

@@ -1,5 +1,6 @@
 body{
   margin: 0px;
+  background: #000000 url('https://img.tmstor.es/michaeljackson/store_bg.png') no-repeat center top / cover fixed;
 }
 
 
@@ -7,7 +8,7 @@ body{
         /*Dropdown*/
         div.dropdown{
           display: inline-block;
-          background-color: rgb(43, 226, 104);
+          background-color: rgba(181, 190, 3, 0.652);
           cursor: pointer;
 
         } 
@@ -39,11 +40,16 @@ body{
           background-color: blanchedalmond;
         } 
 
-
+/*Tobblackbar*/
+div.topblackbar{
+  width: 100%;
+  height: 25px;
+  background-color: black;
+}
 /*Header*/
   /*Top Navbar*/
   div.topnavbar{
-    background-color: aqua;
+    background-color: #DFDFDF;
     width:100%; 
     padding: 10px;
     position: relative;
@@ -120,3 +126,44 @@ body{
       div.currencydrop div.dropdowncontent a:hover{
         background-color: #1c1973 ;
       }
+/*Banner*/
+   /*Logo*/
+
+   div.banner{
+     margin-top: 0px;
+     padding: 30px;
+   }
+      /*Logo Image*/
+      div.banner div.logo p{
+        margin: 0px;
+      }
+
+      div.banner div.logo {
+        background-image:url(https://img.tmstor.es/michaeljackson/head_bg.png);
+        background-repeat: no-repeat;
+        height: 100px;
+        text-indent: -999px;
+        background-position: center;
+      }
+    /*Links*/
+    div.banner div.links{
+      text-align: center;
+    }
+    div.banner div.links ul {
+      margin: 0px;
+    }
+    div.banner div.links ul li{
+      
+      display: inline;
+      margin: 0px 10px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    div.banner div.links ul li a{
+      color: white;
+    }
+      /*Hover*/
+      div.banner div.links ul li a:hover{
+        color: goldenrod;
+      }
+
+  

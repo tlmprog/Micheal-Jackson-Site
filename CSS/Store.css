@@ -3,7 +3,44 @@ body{
 }
 
 
-/*Heeder*/
+/*Genaral Styling*/
+        /*Dropdown*/
+        div.dropdown{
+          display: inline-block;
+          background-color: rgb(43, 226, 104);
+          cursor: pointer;
+
+        } 
+        div.dropdown:hover div.dropdowncontent{
+          display: block;
+        }
+        /*i*/  
+        i{
+          text-align: center;
+          padding: 10px;
+        }
+        /*Drop Down Content*/
+        div.dropdowncontent{
+          display: none;
+          position: absolute;
+          background-color: rgb(23, 23, 26);
+          top: 46px;
+          left: 110px;
+          z-index: 1;
+        }
+        div.dropdowncontent a{
+          display: block;
+          padding: 12px 20px;
+          color: blue;
+          
+
+        }
+        div.dropdowncontent a:hover{
+          background-color: blanchedalmond;
+        } 
+
+
+/*Header*/
   /*Top Navbar*/
   div.topnavbar{
     background-color: aqua;
@@ -13,21 +50,13 @@ body{
 
    }
    /*Left Nav*/
+   div.leftnav{
+     margin-left: 100px;
+   }
       /*Dropdown*/
-      div.dropdown{
-        display: inline-block;
-        background-color: rgb(43, 226, 104);
-        cursor: pointer;
-
-      } 
-      div.dropdown:hover div.dropdowncontent{
-        display: block;
-      }
+           /****Inherit from genaral****/
       /*i*/  
-        i{
-          text-align: center;
-          padding: 10px;
-        } 
+          /****Inherit from genaral****/
       /*Official Site*/  
         a{
               display: inline;
@@ -36,21 +65,58 @@ body{
               color: #000;
           }
         /*Drop Down Content*/
-          div.dropdowncontent{
-            display: none;
-            position: absolute;
-            background-color: rgb(23, 23, 26);
-            top: 46px;
-            left: 10px;
-            z-index: 1;
-          }
-          div.dropdowncontent a{
-            display: block;
-            padding: 12px 20px;
-            color: blue;
-            
+           /****Inherit from genaral****/
+   /*Sub Navbar*/
+    div.rightnav div.subnavbar {
+      position: absolute;
+      right:230px ;
+      top: 0px;
+    }
 
-          }
-          div.dropdowncontent a:hover{
-            background-color: blanchedalmond;
-          }
+    div.rightnav div.subnavbar ul li{
+      display: inline;
+      margin: 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      
+    }
+    div.rightnav div.subnavbar ul:hover{
+      cursor: pointer;
+    }
+
+       /*Currency Drop*/
+    div.currencydrop{
+      position: absolute;
+      top: 10px;
+      right: 150px;
+      
+      }
+
+      div.currencydrop div.dropdowncontent{
+        display: none;
+        position: absolute;
+        background-color: #1c1973;
+        top: 35px;
+        left: 0px;
+          
+      }
+      
+      div.currencydrop div.dropdowncontent a{
+        padding-right:0px ;
+        color:white;
+        padding-left: 50px;
+        margin: 0px;
+        padding-top: 0px;
+      }
+      div.currencydrop div.dropdowncontent a i{
+        margin: 0px;
+        padding:7px;
+        margin-left: 5px;
+      }
+      div.currencydrop div.dropdowncontent a p{
+        margin: 0px 0px 0px 10px;
+        
+      }
+        
+      div.currencydrop div.dropdowncontent a:hover{
+        background-color: #1c1973 ;
+      }

@@ -1,0 +1,24 @@
+.parent-wrapper {
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+  }
+  .parent {
+      box-sizing: border-box;
+    display: flex;
+    font-size: 0;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-color: chartreuse;
+    padding: 20px;
+    border: 1px solid black;
+    flex-direction: row; 
+}
+  .child {
+  
+    background: blue;
+    margin: 5px;
+    flex: 1 0 21%;
+    height: 100px;
+    width: 100px;
+  }

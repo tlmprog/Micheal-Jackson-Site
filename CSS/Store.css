@@ -1,6 +1,7 @@
 body{
   margin: 0px;
   background: #000000 url('https://img.tmstor.es/michaeljackson/store_bg.png') no-repeat center top / cover fixed;
+  zoom: 80%;
 }
 
 
@@ -163,5 +164,91 @@ div.topblackbar{
       div.banner div.links ul li a:hover{
         color: goldenrod;
       }
-
+/*Gradient Colour Bar After The Banner*/
+  div.Gradiantbar{
+    height: 5px;
+    background-image: radial-gradient(circle,rgb(223 223 223) 70%,rgb(128 128 128) 90%);
+  }
+/*The Large Banner With The Clothe Wallpaper*/
   
+  div.Largeposter{
+    position: relative;
+  }
+
+   /*Bilboard */
+        div.Billboard {
+          height: 800px;
+          background-image: url(https://img.tmstor.es/michaeljackson/Hero4.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 100%;
+        }
+
+  /*Button Of Shop Now*/ 
+        div.Largeposter div.Button{
+         position: absolute;
+         top: 600px;
+         left: 200px; 
+       }
+
+       div.Largeposter div.Button button{
+         padding: 20px;
+         font-size: 20px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         background-image: radial-gradient(circle,rgb(179, 175, 199) 60%,rgb(158, 144, 230) 90%);
+         border: none;
+         font-weight: bolder;
+         text-transform: uppercase;
+      
+       }
+       div.Largeposter div.Button button:hover{
+         box-shadow: 10px 8px 10px #16141b;;
+       }
+  /*Forward and backward buttons*/
+  div.arrow{
+    width: 15%;
+    font-size: 60px;
+    position: absolute;
+    box-sizing: border-box;
+    top: 0;
+    height: 100%;
+    color: rgba(255, 248, 220, 0.233);
+    padding-top: 20%;
+    
+  }
+  div.arrow.left:hover{
+    background-image: linear-gradient(to right,rgba(34, 34, 34, 0.261) 10%,rgba(34, 34, 34, 0));
+  }
+  div.arrow.right:hover{
+    background-image: linear-gradient(to left,rgba(34, 34, 34, 0.261) 10%,rgba(34, 34, 34, 0));
+  }
+  div.arrow i{
+    position: absolute;
+    top: 40%;
+  }
+  div.right i{
+    right: 5%;
+  }
+  div.left i{
+
+  left: 5%;
+  
+  }
+
+  div.arrow i:hover{
+    font-size:55px;
+    color: cornsilk;
+   
+  }
+  div.left{
+    position: absolute;
+    left: 0;
+  }
+
+  div.right{
+    position: absolute;
+    right: 0;
+    
+  }
+

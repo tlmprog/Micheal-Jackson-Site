@@ -25,7 +25,7 @@ body{
         }
         /*Drop Down Content*/
         div.dropdowncontent{
-          display: block;
+          display: none;
           position: absolute;
           background-color: #151516fd;
           top: 46px;
@@ -307,6 +307,11 @@ div.whiterow div.container div.products div.hover{
    /*===== Hovering  ========*/
    div.whiterow div.container div.products:hover div.hover{
      display: block;
+   }
+
+   div.arrows i:hover{
+     color: rgb(32, 34, 54);
+     cursor: pointer;
    }
   /*=======The Arrows======*/
   div.arrows{
